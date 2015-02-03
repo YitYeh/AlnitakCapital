@@ -1,7 +1,7 @@
 .container {
 	height: 100%;
 	background-color: #2D2F38;
-	font-family: 'Bree Serif', serif;
+	font-family: 'Lora', serif;
 	color: #DDDCE0;
 }
 
@@ -23,7 +23,6 @@
 	opacity: 0.5;
 }
 
-/* Need to move this functionality to JavaScript */
 .menu-item:hover {
 	opacity: .9;
 }
