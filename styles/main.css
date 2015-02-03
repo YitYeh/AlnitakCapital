@@ -1,0 +1,29 @@
+.container {
+	height: 100%;
+	background-color: #2D2F38;
+	font-family: 'Bree Serif', serif;
+	color: #DDDCE0;
+}
+
+.title-image img  {
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
+.menu {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+.menu-item {
+	display: inline;
+	font-size: 150%;
+	opacity: 0.5;
+}
+
+/* Need to move this functionality to JavaScript */
+.menu-item:hover {
+	opacity: .9;
+}
