@@ -1,5 +1,8 @@
-.container {
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
 	height: 100%;
+	margin: 0 auto -4em;
 	background-color: #2D2F38;
 	font-family: 'Lora', serif;
 	color: #DDDCE0;
@@ -36,4 +39,10 @@
 
 .menu-item:hover {
 	opacity: .9;
+}
+
+.footer {
+	text-align: center;
+	height: auto !important;
+	height: 100%;
 }
