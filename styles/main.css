@@ -12,6 +12,7 @@
 	width: 50%;
 	display: block;
 	margin: auto;
+	padding: 20px;
 }
 
 .tab-content {
@@ -19,6 +20,7 @@
 	margin: 0 auto;
 	text-align: center;
 	display:none;
+	padding: 20px;
 }
 
 #tab-1 {
@@ -29,17 +31,19 @@
 	width: 50%;
 	margin: auto;
 	text-align: center;
+	padding: 10px;
 }
 
 .menu-item {
 	display: inline;
 	font-size: 150%;
-	opacity: 0.5;
+	opacity: 0.5
+	padding: 10 px;;
 }
 
-.menu-item:hover {
+/*.menu-item:hover {
 	opacity: .9;
-}
+}*/
 
 .footer {
 	text-align: center;
