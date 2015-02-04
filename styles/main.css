@@ -11,6 +11,17 @@
 	margin: auto;
 }
 
+.tab-content {
+	width: 660 px;
+	margin: 0 auto;
+	text-align: center;
+	display:none;
+}
+
+#tab-1 {
+	display: block;
+}
+
 .menu {
 	width: 50%;
 	margin: auto;
