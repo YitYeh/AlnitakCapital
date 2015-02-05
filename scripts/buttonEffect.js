@@ -20,8 +20,9 @@ $(function() {
             width: newWidth
         });
 		
-    },function() { 
-		
+    }, function() { 
+		$magicLine.css("left",$(".current").position().left);
+		$magicLine.data("origLeft",$magicLine.position().left);
 		$magicLine.stop().animate({
             left: $magicLine.data("origLeft"),
             width: $magicLine.data("origWidth")
