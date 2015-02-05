@@ -23,22 +23,36 @@
 	padding: 20px;
 }
 
-#tab-1 {
-	display: block;
+#magic-line { 
+	position: absolute;
+	bottom: -2px; 
+	left: 0; 
+	height: 2px; 
+	background: red;
+}
+
+
+.nav-wrap { 
+	margin: 50px auto;  
+	width:350px;
+	height:auto;
+	border-color: white;
+	text-align: center;
 }
 
 .menu {
-	width: 50%;
-	margin: auto;
-	text-align: center;
-	padding: 10px;
+	position: relative;
+	width: 100%;
+	padding: 0px;
 }
+
 
 .menu-item {
 	display: inline;
-	font-size: 150%;
-	opacity: 0.5
-	padding: 10 px;;
+	opacity: 0.5;
+	
+	width: 31.5%;
+	padding: 0px;
 }
 
 /*.menu-item:hover {
