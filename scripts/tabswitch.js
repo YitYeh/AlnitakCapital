@@ -17,4 +17,11 @@ $(window).on("hashchange", function(e) {
 	// Display proper content
 	$(".tab-content").not(location.hash).css("display", "none");
 	$(location.hash).fadeIn();
+	$(".menu-item").each(function() {
+		if ($(this).find('a').attr("href") == location.hash) {
+			$(this).addClass("current");
+		} else {
+			$(this).removeClass("current");
+		}
+	});
 });
