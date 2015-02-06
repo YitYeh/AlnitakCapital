@@ -17,11 +17,11 @@
 }
 
 .tab-content {
-	width: 660 px;
-	margin: 0 auto;
-	text-align: center;
+	width: 55%;
 	display:none;
+	height:50%;
 	padding: 20px;
+	
 }
 
 #magic-line { 
@@ -38,7 +38,7 @@
 	float: left;
 	font-family: 'La Belle Aurore', cursive;
 	font-size: 20px;
-	padding:10px;
+	padding: 10px;
 	color: white;
 }
 
@@ -75,4 +75,5 @@
 	text-align: center;
 	height: auto !important;
 	height: 100%;
+	margin-top: 50px;
 }
