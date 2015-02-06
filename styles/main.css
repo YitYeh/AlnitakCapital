@@ -62,6 +62,22 @@
 	padding: 0px;
 }
 
+#Stern-content {
+	margin:10px;
+}
+
+#Barr-content {
+	margin: 10px;
+}
+
+#Stern {
+	padding:5px;
+}
+
+#Barr {
+	padding: 5px;
+}
+
 
 .menu-item {
 	display: inline;
