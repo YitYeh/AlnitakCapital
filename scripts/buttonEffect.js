@@ -19,8 +19,10 @@ $(function() {
             left: leftPos,
             width: newWidth
         });
-		
     }, function() { 
+		if($('.menu').is(":hover")) {
+			return;
+		}
 		$magicLine.css("left",$(".current").position().left);
 		$magicLine.data("origLeft",$magicLine.position().left);
 		$magicLine.stop().animate({

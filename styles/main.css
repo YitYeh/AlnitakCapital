@@ -28,7 +28,7 @@
 	bottom: -2px; 
 	left: 0; 
 	height: 2px; 
-	background: red;
+	background: #bfaa2a;
 }
 
 
@@ -55,9 +55,9 @@
 	padding: 0px;
 }
 
-/*.menu-item:hover {
-	opacity: .9;
-}*/
+.menu-item:hover {
+	
+}
 
 .footer {
 	text-align: center;
