@@ -11,8 +11,9 @@
 .title-image img  {
 	width: 50%;
 	display: block;
-	margin: auto;
-	padding: 10px;	
+	margin-left: 25%;
+	padding: 10px;
+	
 }
 
 .tab-content {
@@ -30,6 +31,16 @@
 	height: 2px; 
 	background: #bfaa2a;
 }
+
+.slogan {
+	height: 10%;
+	width: 20%;
+	float: left;
+	
+	padding:10px;
+	color: white;
+}
+
 
 
 .nav-wrap { 
