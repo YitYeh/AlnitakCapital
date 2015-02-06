@@ -12,7 +12,7 @@
 	width: 50%;
 	display: block;
 	margin: auto;
-	padding: 20px;
+	padding: 10px;	
 }
 
 .tab-content {
@@ -33,7 +33,7 @@
 
 
 .nav-wrap { 
-	margin: 50px auto;  
+	margin:10px auto;  
 	width:350px;
 	height:auto;
 	border-color: white;

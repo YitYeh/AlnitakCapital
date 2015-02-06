@@ -20,7 +20,7 @@ $(function() {
             width: newWidth
         });
     }, function() { 
-		if($('.menu').is(":hover")) {
+		if($('.menu.three.column').is(":hover")) {
 			return;
 		}
 		$magicLine.css("left",$(".current").position().left);
