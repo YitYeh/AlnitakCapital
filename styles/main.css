@@ -120,7 +120,7 @@ html {
 .menu-item {
 	display: inline;
 	opacity: 0.5;
-	
+	font-size:22px;
 	width: 31.5%;
 	padding: 0px;
 }
