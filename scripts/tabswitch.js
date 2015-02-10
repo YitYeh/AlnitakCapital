@@ -10,6 +10,7 @@ $(document).ready(function() {
         $(tab).fadeIn();
 		
 		location.hash = $(this).find('a').attr('href');
+		window.scrollTo(0, 0);
     });
 });
 
