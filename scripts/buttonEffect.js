@@ -5,7 +5,7 @@ $(function() {
     var $magicLine = $("#magic-line");
 	
     $magicLine
-        .width($magicLine.parent().width() * .31)
+        .width($('.current').width())
         .css("left", $(".current").position().left)
 		.data("origLeft",$magicLine.position().left)
         .data("origWidth", $magicLine.width());
@@ -13,7 +13,7 @@ $(function() {
     $(".menu").find(".menu-item").hover(function() {
         $el = $(this);
         leftPos = $el.position().left;
-        newWidth = $el.parent().width() *.31;
+        newWidth = $el.width();
         
         $magicLine.stop().animate({
             left: leftPos,
