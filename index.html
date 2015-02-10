@@ -41,8 +41,24 @@
 					<div id="contact" class="tab-content">
 						<p><i>
 							<address>
-  							<p><a href="mailto:info@AlnitakCapital.com">Contact us at info@AlnitakCapital.com</a></p></address>
-
+  							<p style="visibility:hidden"><a href="mailto:info@AlnitakCapital.com">Contact us at info@AlnitakCapital.com</a></p></address>
+							<form class="ui form" id="contact_form">
+								<div class="two fields">
+									<div class="four wide field">
+										<input type="text" name="sender_name" placeholder="Your Name">
+									</div>
+									<div class="four wide field">
+										<input type="text" name="sender_email" placeholder="Your Email">
+									</div>
+								</div>
+								<div class="field">
+									<textarea name="sender_message" placeholder="Your Message"></textarea>
+								</div>
+								<div id="contact-form-error" class="ui error message">
+									<div class="header">We noticed some issues</div>
+								</div>
+								<div class="ui submit button">Submit</div>
+							</form>
 						</i><p>
 					</div>
 					<div id="leadership" class="tab-content">
