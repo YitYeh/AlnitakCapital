@@ -1,3 +1,8 @@
+html {
+	overflow: -moz-scrollbars-vertical;
+	overflow-y: scroll;
+}
+
 .wrapper {
 	min-height: 100%;
 	height: auto !important;
