@@ -12,7 +12,7 @@
 		
 		<script type="text/javascript" src="scripts/tabswitch.js"></script>
 		<script type="text/javascript" src="scripts/buttonEffect.js"></script>
-	
+	<script type="text/javascript" src="scripts/contactForm.js"></script> 
 		<title>Alnitak Capital | Strategic, innovative, visionary.</title>
 	</head>
 	<body>
@@ -35,7 +35,8 @@
 			<div class="content">
 				<div class="tab">
 					<div id="home" class="tab-content">
-						<p></br></br>Alnitak Capital Partners, LLC (&quot;Alnitak&quot;) is a strategic consulting and mergers and acquisitions merchant bank. The firm was founded in early 2013 by two senior and experienced bankers/operating executives to allow them to assist a limited number of clients in developing strategic alternatives, and in executing those potential options.</br></br>
+						<p align="center"></br><img src="images/home_background.png" alt="NYC skyline"> </p>
+						<p></br>Alnitak Capital Partners, LLC (&quot;Alnitak&quot;) is a strategic consulting and mergers and acquisitions merchant bank. The firm was founded in early 2013 by two senior and experienced bankers/operating executives to allow them to assist a limited number of clients in developing strategic alternatives, and in executing those potential options.</br></br>
 						The principals apply their financial, banking and operating experience to devise unique solutions that are not always obvious to traditional bankers. Many of these plans involve the acquisition or divestiture of companies, divisions or businesses, to which the principals apply their long banking experience and contacts to maximize results.</br></br>
 						Alnitak’s primary focus is in working with technology, technology services, Internet  and consumer  product companies. The principals have extensive experience in cross border M &amp; A, having completed transactions with companies from Israel, Korea, Canada, the U.K., and more. Current clients include Radware, Movio Network, Audiocodes, Tucows, AnyDATA, Inc.</p>
 					</div>
@@ -43,22 +44,25 @@
 						<p><i>
 							<address>
   							<p style="visibility:hidden"><a href="mailto:info@AlnitakCapital.com">Contact us at info@AlnitakCapital.com</a></p></address>
-							<form class="ui form" id="contact_form">
+							<div id="form-messages">
+								
+							</div>
+							<form id="contact-form" class="ui form" method="post" action="scripts/mailer.php">
 								<div class="two fields">
 									<div class="four wide field">
-										<input type="text" name="sender_name" placeholder="Your Name">
+										<input type="text" id="sender_name" name="sender_name" placeholder="Your Name" required>
 									</div>
 									<div class="four wide field">
-										<input type="text" name="sender_email" placeholder="Your Email">
+										<input type="text" id="sender_email" name="sender_email" placeholder="Your Email" required>
 									</div>
 								</div>
 								<div class="field">
-									<textarea name="sender_message" placeholder="Your Message"></textarea>
+									<textarea id="sender_message" name="sender_message" placeholder="Your Message" required></textarea>
 								</div>
 								<div id="contact-form-error" class="ui error message">
 									<div class="header">We noticed some issues</div>
 								</div>
-								<div class="ui submit button">Submit</div>
+								<input type="submit" class="ui submit button">
 							</form>
 						</i><p>
 					</div>
