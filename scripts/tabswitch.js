@@ -25,4 +25,12 @@ $(window).on("hashchange", function(e) {
 			$(this).removeClass("current");
 		}
 	});
+	window.scrollTo(0,0);
+	var $magicLine = $('#magic-line');
+	$magicLine.css("left",$('.current').position().left);
+		$magicLine.data("origLeft",$magicLine.position().left);
+		$magicLine.stop().animate({
+			left: $magicLine.data("origLeft"),
+			width: $('.menu').width()*.31
+		});
 });
