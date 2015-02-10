@@ -7,11 +7,13 @@
 		<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+		
 		<script type="text/javascript" src="scripts/jquery-2.1.3.min.js"></script>
 		<script type="text/javascript" src="Semantic-UI-1.8.1/dist/semantic.js"></script>
 		
 		<script type="text/javascript" src="scripts/tabswitch.js"></script>
 		<script type="text/javascript" src="scripts/buttonEffect.js"></script>
+		<script type="text/javascript" src="scripts/contactForm.js"></script>
 	
 		<title>Alnitak Capital | Strategic, innovative, visionary.</title>
 	</head>
@@ -43,22 +45,25 @@
 						<p><i>
 							<address>
   							<p style="visibility:hidden"><a href="mailto:info@AlnitakCapital.com">Contact us at info@AlnitakCapital.com</a></p></address>
-							<form class="ui form" id="contact_form">
+							<div id="form-messages">
+								
+							</div>
+							<form id="contact-form" class="ui form" method="post" action="scripts/mailer.php">
 								<div class="two fields">
 									<div class="four wide field">
-										<input type="text" name="sender_name" placeholder="Your Name">
+										<input type="text" id="sender_name" name="sender_name" placeholder="Your Name" required>
 									</div>
 									<div class="four wide field">
-										<input type="text" name="sender_email" placeholder="Your Email">
+										<input type="text" id="sender_email" name="sender_email" placeholder="Your Email" required>
 									</div>
 								</div>
 								<div class="field">
-									<textarea name="sender_message" placeholder="Your Message"></textarea>
+									<textarea id="sender_message" name="sender_message" placeholder="Your Message" required></textarea>
 								</div>
 								<div id="contact-form-error" class="ui error message">
 									<div class="header">We noticed some issues</div>
 								</div>
-								<div class="ui submit button">Submit</div>
+								<input type="submit" class="ui submit button">
 							</form>
 						</i><p>
 					</div>
