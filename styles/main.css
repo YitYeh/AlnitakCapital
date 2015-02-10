@@ -26,8 +26,18 @@
 	padding-left: 20%;
 	text-align: justify;
 
-	
 }
+
+@Segoe {
+   font-family: Segoe UI Light;
+   src: url(segoeuil.ttf);
+}
+
+@boldSegoe {
+	font-family: Segoe UI Light;
+	src: url(segoeuib.ttf);
+}
+	
 
 .bold {
     font-weight: bold;
@@ -63,9 +73,9 @@
 	height: 10%;
 	width: 20%;
 	float: left;
-	font-family: 'La Belle Aurore', cursive;
-	font-size: 20px;
-	padding: 10px;
+	font-family: 'Raleway', sans-serif;	
+	font-size: 18px;
+	padding: 8px;
 	color: white;
 }
 
