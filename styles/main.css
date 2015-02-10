@@ -9,7 +9,7 @@ html {
 	height: 100%;
 	margin: 0 auto -100px;
 	background-color: #16191A;
-	font-family: 'Segoe UI Semilight', sans-serif;
+	font-family: 'Raleway', sans-serif;	
 	color: rgba(194, 190, 190, 0.8);
 	font-size: 16px;
 }
@@ -30,46 +30,64 @@ html {
 	padding-left: 20%;
 	text-align: justify;
 
-	
 }
+
+@Segoe {
+   font-family: Segoe UI Light;
+   src: url(segoeuil.ttf);
+}
+
+@boldSegoe {
+	font-family: Segoe UI Light;
+	src: url(segoeuib.ttf);
+}
+	
 
 .bold {
     font-weight: bold;
 }
 
 .segoe {
-	font-family: "Segoe UI Light", Segoe UI, sans-serif;
+	font-family: 'Raleway', sans-serif;	
 	font-size: 50px;
 	color: rgba(191, 170, 42, 1);
+	font-weight: 900;
 	
 }
 
 .segoe-bold {
-	font-family: "Segoe UI Bold", Segoe UI, sans-serif;
+	font-family: 'Raleway', sans-serif;	
 	font-size: 35px;
 	font-style: italic;
 	color: rgba(53, 112, 140, 1);
-	
 }
+
 .leadershiptext {
 	color: rgba(194, 190, 190, 0.8);
-
 }
+
 #magic-line { 
 	position: absolute;
 	bottom: -2px; 
 	left: 0; 
 	height: 2px; 
-	background: #bfaa2a;
+	background: #111314; /* Old browsers */
+	background: -moz-linear-gradient(left,  #111314 19%, #c7c9c5 50%, #939392 50%, #111314 83%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(19%,#111314), color-stop(50%,#c7c9c5), color-stop(50%,#939392), color-stop(83%,#111314)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #111314 19%,#c7c9c5 50%,#939392 50%,#111314 83%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #111314 19%,#c7c9c5 50%,#939392 50%,#111314 83%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #111314 19%,#c7c9c5 50%,#939392 50%,#111314 83%); /* IE10+ */
+	background: linear-gradient(to right,  #111314 19%,#c7c9c5 50%,#939392 50%,#111314 83%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111314', endColorstr='#111314',GradientType=1 ); /* IE6-9 */
 }
 
 .slogan {
 	height: 10%;
 	width: 20%;
 	float: left;
-	font-family: 'La Belle Aurore', cursive;
-	font-size: 20px;
-	padding: 10px;
+	font-family: 'Raleway', sans-serif;	
+	font-size: 18px;
+	padding: 8px;
 	color: white;
 }
 
@@ -105,18 +123,14 @@ html {
 	padding: 5px;
 }
 
-
 .menu-item {
-	display: inline;
-	opacity: 0.5;
-	
+	display: inline !important;
+	font-size:22px;
 	width: 31.5%;
 	padding: 0px;
+	color: yellow;
 }
 
-.menu-item:hover {
-	
-}
 
 .success {
   padding: 1em;
@@ -144,7 +158,7 @@ html {
 
 .footer {
 	text-align: center;
-	height: auto !important;
+	height: auto !important;F
 	height: 100%;
 	margin-top: 70px;
 	color: rgba(191, 170, 42, 1);
