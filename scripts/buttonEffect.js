@@ -27,7 +27,7 @@ $(function() {
 		$magicLine.data("origLeft",$magicLine.position().left);
 		$magicLine.stop().animate({
             left: $magicLine.data("origLeft"),
-            width: $magicLine.data("origWidth")
+            width: $('.current > a').width()
         });  
     });
 	$(".menu").on("mouseout", function(e) {
@@ -35,7 +35,7 @@ $(function() {
 		$magicLine.data("origLeft",$magicLine.position().left);
 		$magicLine.stop().animate({
             left: $magicLine.data("origLeft"),
-            width: $magicLine.data("origWidth")
+            width: $('current > a').width()
         });
 	});		
 });
