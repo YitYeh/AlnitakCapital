@@ -27,10 +27,10 @@ $(window).on("hashchange", function(e) {
 	});
 	window.scrollTo(0,0);
 	var $magicLine = $('#magic-line');
-	$magicLine.css("left",$('.current').position().left);
-		$magicLine.data("origLeft",$magicLine.position().left);
-		$magicLine.stop().animate({
-			left: $magicLine.data("origLeft"),
-			width: $('.menu').width()*.31
-		});
+	$magicLine.css("left",$('.current > a').position().left);
+	$magicLine.data("origLeft",$magicLine.position().left);
+	$magicLine.stop().animate({	
+		left: $magicLine.data("origLeft"),
+		width: $('.current > a').width()
+	});
 });

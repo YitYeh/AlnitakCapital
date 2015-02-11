@@ -5,7 +5,7 @@ $(function() {
     var $magicLine = $("#magic-line");
 	
     $magicLine
-        .width($('.current a').width())
+        .width($('.current > a').width())
         .css("left", $(".current a").position().left)
 		.data("origLeft",$magicLine.position().left)
         .data("origWidth", $magicLine.width());
@@ -23,11 +23,19 @@ $(function() {
 		if($('.menu.three.column').is(":hover")) {
 			return;
 		}
-		$magicLine.css("left",$(".current a").position().left);
+		$magicLine.css("left",$(".current > a").position().left);
 		$magicLine.data("origLeft",$magicLine.position().left);
 		$magicLine.stop().animate({
             left: $magicLine.data("origLeft"),
             width: $magicLine.data("origWidth")
         });  
     });
+	$(".menu").on("mouseout", function(e) {
+		$magicLine.css('left',$('current > a').position().left);
+		$magicLine.data("origLeft",$magicLine.position().left);
+		$magicLine.stop().animate({
+            left: $magicLine.data("origLeft"),
+            width: $magicLine.data("origWidth")
+        });
+	});		
 });
