@@ -108,17 +108,23 @@ html {
 	padding: 0px;
 }
 
+.menu-item a:link{
+	color: rgba(191, 170, 42, 1);
+}
+
+.menu-item a:visited{
+	color: rgba(191, 170, 42, 1);
+}
+
+.menu-item a:hover{
+	color: rgba(53, 112, 140, 1);
+}
 
 .menu-item {
 	display: inline !important;
 	font-size:22px;
 	width: 31.5%;
 	padding: 0px;
-	color: yellow;
-}
-
-.menu-item a {
-	color: inherit;
 }
 
 #centertab {
