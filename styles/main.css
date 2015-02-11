@@ -71,14 +71,15 @@ html {
 	bottom: -2px; 
 	left: 0; 
 	height: 2px; 
-	background: #111314; /* Old browsers */
-	background: -moz-linear-gradient(left,  #111314 19%, #c7c9c5 50%, #939392 50%, #111314 83%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(19%,#111314), color-stop(50%,#c7c9c5), color-stop(50%,#939392), color-stop(83%,#111314)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  #111314 19%,#c7c9c5 50%,#939392 50%,#111314 83%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  #111314 19%,#c7c9c5 50%,#939392 50%,#111314 83%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  #111314 19%,#c7c9c5 50%,#939392 50%,#111314 83%); /* IE10+ */
-	background: linear-gradient(to right,  #111314 19%,#c7c9c5 50%,#939392 50%,#111314 83%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111314', endColorstr='#111314',GradientType=1 ); /* IE6-9 */
+	background: #1e2321; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e2321 14%, #7a7a7a 50%, #1e2321 86%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(14%,#1e2321), color-stop(50%,#7a7a7a), color-stop(86%,#1e2321)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #1e2321 14%,#7a7a7a 50%,#1e2321 86%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #1e2321 14%,#7a7a7a 50%,#1e2321 86%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #1e2321 14%,#7a7a7a 50%,#1e2321 86%); /* IE10+ */
+background: linear-gradient(to right,  #1e2321 14%,#7a7a7a 50%,#1e2321 86%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e2321', endColorstr='#1e2321',GradientType=1 ); /* IE6-9 */
+
 }
 
 .slogan {
@@ -103,8 +104,18 @@ html {
 
 .menu {
 	position: absolute;
-	width: 25%;
+	width: 30%;
 	padding: 0px;
+}
+
+
+.menu-item {
+	display: inline !important;
+	font-size:22px;
+	width: 31.5%;
+	padding: 0px;
+	color: yellow;
+	margin:20px;
 }
 
 #Stern-content {
@@ -121,14 +132,6 @@ html {
 
 #Barr {
 	padding: 5px;
-}
-
-.menu-item {
-	display: inline !important;
-	font-size:22px;
-	width: 31.5%;
-	padding: 0px;
-	color: yellow;
 }
 
 

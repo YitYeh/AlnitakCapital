@@ -5,13 +5,13 @@ $(function() {
     var $magicLine = $("#magic-line");
 	
     $magicLine
-        .width($('.current').width())
-        .css("left", $(".current").position().left)
+        .width($('.current a').width())
+        .css("left", $(".current a").position().left)
 		.data("origLeft",$magicLine.position().left)
         .data("origWidth", $magicLine.width());
         
     $(".menu").find(".menu-item").hover(function() {
-        $el = $(this);
+        $el = $(this).find('a');
         leftPos = $el.position().left;
         newWidth = $el.width();
         
@@ -19,11 +19,11 @@ $(function() {
             left: leftPos,
             width: newWidth
         });
-    }, function() { 
+    }, 	function() { 
 		if($('.menu.three.column').is(":hover")) {
 			return;
 		}
-		$magicLine.css("left",$(".current").position().left);
+		$magicLine.css("left",$(".current a").position().left);
 		$magicLine.data("origLeft",$magicLine.position().left);
 		$magicLine.stop().animate({
             left: $magicLine.data("origLeft"),
