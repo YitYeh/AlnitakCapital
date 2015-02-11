@@ -117,6 +117,10 @@ html {
 	color: yellow;
 }
 
+.menu-item a {
+	color: inherit;
+}
+
 #centertab {
 	margin:20px;
 }
