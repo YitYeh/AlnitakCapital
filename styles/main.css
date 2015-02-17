@@ -24,10 +24,21 @@ html {
 	color: white;
 }
 
-.title-image {
-	background-image: url("../images/home_background.jpg");
+.backpic {
+	/*background-image: url("../images/home_background.jpg");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center;*/
+	opacity:1;
+	position: relative;
+	z-index:2;
+}
+
+.logopic {
+	left:0;
+	opacity:.2;
+	z-index:10;
+	position:absolute;
+	top:0;
 }
 
 .title-image img  {
