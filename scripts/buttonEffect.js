@@ -8,7 +8,6 @@ $(function() {
         .width($('.current > a').width())
         .css("left", $(".current a").position().left)
 		.data("origLeft",$magicLine.position().left)
-        .data("origWidth", $magicLine.width());
         
     $(".menu").find(".menu-item").hover(function() {
         $el = $(this).find('a');
@@ -20,22 +19,20 @@ $(function() {
             width: newWidth
         });
     }, 	function() { 
-		if($('.menu.three.column').is(":hover")) {
+		if($('.nav-wrap').is(":hover")) {
 			return;
 		}
 		$magicLine.css("left",$(".current > a").position().left);
-		$magicLine.data("origLeft",$magicLine.position().left);
+		//$magicLine.data("origLeft",$magicLine.position().left);
 		$magicLine.stop().animate({
-            left: $magicLine.data("origLeft"),
             width: $('.current > a').width()
-        });  
+        },50);  
     });
-	$(".menu").on("mouseout", function(e) {
+	$('.menu').mouseout(function(e) {
 		$magicLine.css('left',$('current > a').position().left);
 		$magicLine.data("origLeft",$magicLine.position().left);
 		$magicLine.stop().animate({
-            left: $magicLine.data("origLeft"),
             width: $('current > a').width()
-        });
-	});		
+        },50);
+	});
 });
