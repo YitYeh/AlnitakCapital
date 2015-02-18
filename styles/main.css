@@ -225,11 +225,12 @@ html {
 
 .footer {
 	text-align: center;
-	height: auto !important;F
-	height: 100%;
+	height: auto !important;
 	margin-top: 70px;
 	color: rgba(191, 170, 42, 1);
 	font-size: 12px;
+	background-color: #16191A;
+
 }
 
 .footer, .push {
