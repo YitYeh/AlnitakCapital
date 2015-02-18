@@ -173,6 +173,19 @@ html {
 	width: 39%;
 }	
 
+#contact-form {
+	width:52%;
+	float: right;
+	margin: 1%;
+}
+
+#contact-info {
+	text-align: center;
+	width: 46%;
+	margin-top: 75px;
+	font-size: 22px;
+	
+}
 .success {
   padding: 1em;
   margin-bottom: 0.75rem;
