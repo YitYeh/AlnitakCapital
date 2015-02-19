@@ -43,7 +43,7 @@ html {
 }
 
 .title-image img  {
-	width: 40%;
+	width: 50%;
 	display: block;
 	margin: auto;
 	padding: 10px;
@@ -87,10 +87,9 @@ html {
 	width: 100%;
 	display:none;
 	height:auto;
-	/*text-align: center;*/
 	text-align: left;
 	margin:auto;
-	width: 39%
+	
 }
 
 @Segoe {
@@ -173,7 +172,7 @@ html {
 
 #home {
 	margin:auto;
-	width: 39%
+	width: 49%
 }
 
 #contact {
@@ -183,7 +182,7 @@ html {
 
 #leadership {
 	margin: auto;
-	width: 39%;
+	width: 49%;
 }	
 
 #contact-form {
@@ -193,12 +192,13 @@ html {
 }
 
 #contact-info {
-	text-align: center;
+	text-align: left;
 	width: 46%;
 	margin-top: 75px;
 	font-size: 22px;
 	
 }
+
 .success {
   padding: 1em;
   margin-bottom: 0.75rem;
@@ -226,7 +226,7 @@ html {
 .footer {
 	text-align: center;
 	height: auto !important;
-	margin-top: 70px;
+	margin-top: 75px;
 	color: rgba(191, 170, 42, 1);
 	font-size: 12px;
 	background-color: #16191A;
