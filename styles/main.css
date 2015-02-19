@@ -67,7 +67,7 @@ html {
 
 
 
-/*.menu-item a:link{
+.menu-item a:link{
 	color: rgba(191, 170, 42, 1);
 }
 
@@ -77,11 +77,12 @@ html {
 
 .menu-item a:hover{
 	color: rgba(53, 112, 140, 1);
-}*/
+}
 
 .menu-item {
 	display: inline !important;
-	font-size:22px;
+	font-size: 27px;
+	font-weight: 900;
 	width: 31.5%;
 	padding: 0px;
 }
