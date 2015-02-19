@@ -1,5 +1,6 @@
 // DOM Ready
 $(function() {		
+	
     var $el, leftPos, newWidth;
     $("#magic-tabs").append("<div id='magic-line'></div>");
     var $magicLine = $("#magic-line");
@@ -19,20 +20,20 @@ $(function() {
             width: newWidth
         });
     }, 	function() { 
-		if($('.nav-wrap').is(":hover")) {
+		if($('.menu').is(":hover")) {
 			return;
 		}
 		$magicLine.css("left",$(".current > a").position().left);
-		//$magicLine.data("origLeft",$magicLine.position().left);
-		$magicLine.stop().animate({
-            width: $('.current > a').width()
-        },50);  
-    });
-	$('.menu').mouseout(function(e) {
-		$magicLine.css('left',$('current > a').position().left);
 		$magicLine.data("origLeft",$magicLine.position().left);
 		$magicLine.stop().animate({
-            width: $('current > a').width()
-        },50);
+            width: $('.current > a').width()
+        },300);  
+    });
+	$('.menu').mouseleave(function(e) {
+		$magicLine.css('left',$('.current > a').position().left);
+		$magicLine.data("origLeft",$magicLine.position().left);
+		$magicLine.stop().animate({
+            width: $('.current > a').width()
+        },300);
 	});
 });

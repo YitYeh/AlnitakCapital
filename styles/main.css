@@ -62,7 +62,10 @@ html {
 	position: absolute;
 	width: 100%;
 	padding: 0px;
+	color: color: rgba(191, 170, 42, 1);
 }
+
+
 
 /*.menu-item a:link{
 	color: rgba(191, 170, 42, 1);
