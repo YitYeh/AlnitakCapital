@@ -5,10 +5,10 @@ $(function() {
     $("#magic-tabs").append("<div id='magic-line'></div>");
     var $magicLine = $("#magic-line");
 	
-    $magicLine
-        .width($('.current > a').width())
-        .css("left", $(".current a").position().left)
-		.data("origLeft",$magicLine.position().left)
+    $magicLine.stop().animate({
+		left: $('.current > a').position().left,
+        width: $('.current > a').width()
+	});
         
     $(".menu").find(".menu-item").hover(function() {
         $el = $(this).find('a');
@@ -23,16 +23,14 @@ $(function() {
 		if($('.menu').is(":hover")) {
 			return;
 		}
-		$magicLine.css("left",$(".current > a").position().left);
-		$magicLine.data("origLeft",$magicLine.position().left);
 		$magicLine.stop().animate({
+			left: $('.current > a').position().left,
             width: $('.current > a').width()
         },300);  
     });
 	$('.menu').mouseleave(function(e) {
-		$magicLine.css('left',$('.current > a').position().left);
-		$magicLine.data("origLeft",$magicLine.position().left);
 		$magicLine.stop().animate({
+			left: $('.current > a').position().left,
             width: $('.current > a').width()
         },300);
 	});

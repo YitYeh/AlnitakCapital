@@ -7,7 +7,7 @@ html {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -100px;
+	margin: 0 auto 50px;
 	background-color: #EEEEEB;
 	font-family: 'Raleway', sans-serif;	
 	color: black;
@@ -35,19 +35,20 @@ html {
 }
 
 .logopic {
-	left: 0;
 	opacity: .2;
 	z-index: 10;
 	position: absolute;
 	top: 0;
+	width: 50%;
+	margin-left: 25%;	
 }
 
 .title-image img  {
-	width: 100%;
+	width: 95%;
 	display: block;
 	margin: auto;
 	padding: 10px;
-	height: 20%;
+	max-height: 300px;
 
 }
 
@@ -70,11 +71,11 @@ html {
 
 
 .menu-item a:link{
-	color: rgba(191, 170, 42, 1);
+	color: #656464;
 }
 
 .menu-item a:visited{
-	color: rgba(191, 170, 42, 1);
+	color: #656464;
 }
 
 .menu-item a:hover{
@@ -151,7 +152,7 @@ html {
 #magic-line { 
 	position: absolute;
 	bottom: -2px; 
-	left: 0; 
+	 
 	height: 2px; 
 	background: #1e2321; /* Old browsers */
 	background: -moz-linear-gradient(left,  #1e2321 14%, #7a7a7a 50%, #1e2321 86%); /* FF3.6+ */
@@ -183,7 +184,9 @@ html {
 
 #contact {
 	margin: auto;
+	margin-bottom: 50px;
 	width:50%;
+	height: auto;
 }
 
 #leadership {
@@ -195,6 +198,7 @@ html {
 	width:52%;
 	float: right;
 	margin: 1%;
+	height: auto;
 }
 
 #contact-info {
@@ -232,13 +236,13 @@ html {
 .footer {
 	text-align: center;
 	height: auto !important;
-	margin-top: 75px;
-	color: rgba(191, 170, 42, 1);
+	margin-top: 10px;
+	color: black;
 	font-size: 12px;
 	background-color: #EEEEEB;
-
+	
 }
 
 .footer, .push {
-    height: 100px; /* .push must be the same height as .footer */
+    height: 50px; /* .push must be the same height as .footer */
 }
