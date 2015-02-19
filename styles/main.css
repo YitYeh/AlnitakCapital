@@ -8,9 +8,9 @@ html {
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -100px;
-	background-color: #16191A;
+	background-color: #EEEEEB;
 	font-family: 'Raleway', sans-serif;	
-	color: rgba(194, 190, 190, 0.8);
+	color: black;
 	font-size: 16px;
 }
 
@@ -64,7 +64,7 @@ html {
 	padding: 0px;
 }
 
-.menu-item a:link{
+/*.menu-item a:link{
 	color: rgba(191, 170, 42, 1);
 }
 
@@ -74,7 +74,7 @@ html {
 
 .menu-item a:hover{
 	color: rgba(53, 112, 140, 1);
-}
+}*/
 
 .menu-item {
 	display: inline !important;
@@ -89,7 +89,7 @@ html {
 	height:auto;
 	text-align: left;
 	margin:auto;
-	
+	font-size: 20px;
 }
 
 @Segoe {
@@ -139,7 +139,7 @@ html {
 
 .leadership-text {
     margin-top: 10px;
-	color: rgba(194, 190, 190, 0.8);
+	color: black;
 }
 
 #magic-line { 
@@ -172,7 +172,7 @@ html {
 
 #home {
 	margin:auto;
-	width: 49%
+	width: 42%
 }
 
 #contact {
@@ -229,7 +229,7 @@ html {
 	margin-top: 75px;
 	color: rgba(191, 170, 42, 1);
 	font-size: 12px;
-	background-color: #16191A;
+	background-color: #EEEEEB;
 
 }
 
