@@ -43,10 +43,12 @@ html {
 }
 
 .title-image img  {
-	width: 50%;
+	width: 100%;
 	display: block;
 	margin: auto;
 	padding: 10px;
+	height: 20%;
+
 }
 
 .nav-wrap { 
