@@ -3,10 +3,13 @@ $(function() {
 	
     var $el, leftPos, newWidth;
     $("#magic-tabs").append("<div id='magic-line'></div>");
-    var $magicLine = $("#magic-line");
+    $magicLine = $("#magic-line");
+	
+	leftPos = $('.current').position().left + 25;
+	$magicLine.css('left',leftPos);
 	
     $magicLine.stop().animate({
-		left: $('.current > a').position().left,
+		left: leftPos,
         width: $('.current > a').width()
 	});
         
@@ -34,4 +37,10 @@ $(function() {
             width: $('.current > a').width()
         },300);
 	});
+});
+$(window).resize(function() {
+	$('#magic-line').stop().animate({
+			left: $('.current > a').position().left,
+            width: $('.current > a').width()
+        },300);
 });
