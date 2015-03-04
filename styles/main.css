@@ -13,7 +13,7 @@ html {
 	background-color: #EEEEEB;
 	font-family: 'Raleway', sans-serif;	
 	color: black;
-	font-size: 16px;
+	font-size: 1em;
 	width: 100%;
 }
 
@@ -21,15 +21,12 @@ html {
     display: block;
 }
 
-.slogan {
-	height: 10%;
-	width: 20%;
-	float: left;
-	font-family: 'Raleway', sans-serif;	
-	font-size: 18px;
-	padding: 8px;
-	color: white;
-}
+/*).slogan {
+	height: 475px;
+	width: 600px;
+	margin-top: 4%;
+	margin: auto;
+}*/
 
 .backpic {
 	opacity: 1;
@@ -41,7 +38,7 @@ html {
 	opacity: .2;
 	z-index: 10;
 	position: absolute;
-	top: 30px;
+	top: 2.5%	;
 	width: 50%;
 	margin-left: 25%;	
 	min-width: 400px;
@@ -98,11 +95,11 @@ html {
 
 .tab-content {
 	width: 100%;
-	display:none;
-	height:auto;
+	display: none;
+	height: auto;
 	text-align: left;
-	margin:auto;
-	font-size: 20px;
+	margin: auto;
+	font-size: 1.8rem;
 	min-width: 450px;
 }
 
@@ -186,9 +183,12 @@ html {
 
 #home {
 	margin: auto;
-	margin-top: 3%;
 	width: 80%;
 	min-width: 700px;
+}
+
+#hometext{
+	margin-top: 5%;
 	-webkit-column-count: 3;
     -moz-column-count: 3; 
     column-count: 3;
