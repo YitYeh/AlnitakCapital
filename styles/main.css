@@ -41,18 +41,19 @@ html {
 	opacity: .2;
 	z-index: 10;
 	position: absolute;
-	top: 0;
+	top: 30px;
 	width: 50%;
 	margin-left: 25%;	
+	min-width: 400px;
 }
 
 .title-image img  {
-	width: 95%;
+	width: 88%;
 	display: block;
 	margin: auto;
-	padding: 10px;
+	margin-top: 0px;
 	max-height: 300px;
-
+	min-width: 400px;
 }
 
 .nav-wrap { 
@@ -184,8 +185,16 @@ html {
 }
 
 #home {
-	margin:auto;
-	width: 42%
+	margin: auto;
+	margin-top: 3%;
+	width: 80%;
+	min-width: 700px;
+	-webkit-column-count: 3;
+    -moz-column-count: 3; 
+    column-count: 3;
+	break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
 }
 
 #contact {
@@ -239,16 +248,40 @@ html {
           border-radius: 4px;
 }
 
-.footer {
+footer {
 	text-align: center;
 	height: auto !important;
 	margin-top: 10px;
-	color: black;
-	font-size: 12px;
-	background-color: #EEEEEB;
+	padding: 50px;
+	color: white;
+	font-size: .7em;
+	background-color: black;
 	
 }
 
-.footer, .push {
+footer, .push {
     height: 50px; /* .push must be the same height as .footer */
+}
+
+#ourfooter {
+	font-size: 1em;
+}
+
+#left,#right{
+	top: 0;
+	bottom: 0;
+	background-color: black;
+	width: 6%;
+	
+}
+#left {
+	left:0;
+	height: 100%;
+	position: fixed;
+}
+
+#right {
+	right: 0;
+	height: 100%;
+	position: fixed;
 }

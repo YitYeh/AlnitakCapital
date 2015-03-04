@@ -1,13 +1,13 @@
 $(document).ready(function() {
 	location.hash = '#home';
-	$('#home').fadeIn();
+	$('#home').fadeIn(600);
     $(".menu-item").click(function(event) {
         event.preventDefault();
         $(this).addClass("current");
         $(this).siblings().removeClass("current");
         var tab = $(this).find('a').attr("href");
         $(".tab-content").not(tab).css("display", "none");
-        $(tab).fadeIn();
+        $(tab).fadeIn(600);
 		
 		location.hash = $(this).find('a').attr('href');
 		window.scrollTo(0, 0);
@@ -17,7 +17,7 @@ $(document).ready(function() {
 $(window).on("hashchange", function(e) {
 	// Display proper content
 	$(".tab-content").not(location.hash).css("display", "none");
-	$(location.hash).fadeIn();
+	$(location.hash).fadeIn(600);
 	$(".menu-item").each(function() {
 		if ($(this).find('a').attr("href") == location.hash) {
 			$(this).addClass("current");
