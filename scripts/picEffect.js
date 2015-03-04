@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$logoPic = $('.logopic');
 	
 	$backPic.animate({
-		opacity:.2
+		opacity:.3
 	},2000);
 	$logoPic.animate({
 		opacity:1
