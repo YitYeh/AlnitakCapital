@@ -251,7 +251,7 @@ footer {
 	padding: 50px;
 	color: white;
 	width: 100%;
-	font-size: .8em;
+	font-size: .65em;
 	background: #1e2321; /* Old browsers */
 	background: -moz-linear-gradient(-45deg,  #1e2321 14%, #7a7a7a 50%, #1e2321 86%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right bottom, color-stop(14%,#1e2321), color-stop(50%,#7a7a7a), color-stop(86%,#1e2321)); /* Chrome,Safari4+ */
@@ -260,7 +260,7 @@ footer {
 	background: -ms-linear-gradient(-45deg,  #1e2321 14%,#7a7a7a 50%,#1e2321 86%); /* IE10+ */
 	background: linear-gradient(135deg,  #1e2321 14%,#7a7a7a 50%,#1e2321 86%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e2321', endColorstr='#1e2321',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	
+	z-index: 5;
 }
 
 footer, .push {
