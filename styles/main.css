@@ -15,6 +15,7 @@ html {
 	color: black;
 	font-size: .6em;
 	width: 100%;
+	font-weight:600; 
 }
 
 .new-line {
@@ -45,12 +46,11 @@ html {
 }
 
 .title-image img  {
-	width: 88%;
+ 	width: 88%;
 	display: block;
 	margin: auto;
-	margin-top: 0px;
-	max-height: 300px;
-	min-width: 400px;
+	margin-top: -50px;
+	max-height: 250px;
 }
 
 .nav-wrap { 
@@ -121,7 +121,7 @@ html {
 .segoe {
 	font-family: 'Raleway', sans-serif;	
 	font-size: 48px;
-	color: rgba(191, 170, 42, 1);
+	color: rgba(103, 26, 64, 1);
 	font-weight: 900;
 	
 }
@@ -135,6 +135,8 @@ html {
 
 .leadership-content {
     margin: 10px;
+    padding-top:50px;
+
 }
 
 .leadership-header {
@@ -153,6 +155,7 @@ html {
 	color: black;
 }
 
+<!--
 #magic-line { 
 	position: absolute;
 	bottom: -2px; 
@@ -166,8 +169,8 @@ html {
 	background: -ms-linear-gradient(left,  #1e2321 14%,#7a7a7a 50%,#1e2321 86%); /* IE10+ */
 	background: linear-gradient(to right,  #1e2321 14%,#7a7a7a 50%,#1e2321 86%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e2321', endColorstr='#1e2321',GradientType=1 ); /* IE6-9 */
-	
 }
+-->
 
 #centertab {
 	margin:20px;
@@ -215,8 +218,9 @@ html {
 #contact-info {
 	text-align: left;
 	width: 46%;
-	margin-top: 75px;
 	font-size: 22px;
+	margin-top:50px;
+	padding-right:30px;
 	
 }
 
